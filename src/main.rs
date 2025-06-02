@@ -48,7 +48,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!();
 
     // Performance test
-    test_tls_providers("1.12.12.21:443", "dns.pub").await?;
+    test_tls_providers("120.53.53.53:443", "dns.pub").await?;
 
     Ok(())
 }
