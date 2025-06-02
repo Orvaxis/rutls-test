@@ -1,0 +1,11 @@
+[package]
+name = "rustls-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustls = { version = "0.23", features = ["ring"] }
+aws-lc-rs = "1.8"
+ring = "0.17"
+tokio = { version = "1.0", features = ["full"] }
+webpki-roots = "0.26"
